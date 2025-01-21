@@ -87,6 +87,7 @@ if(gazebo_FOUND)
 		iris_opt_flow_mockup
 		iris_rplidar
 		iris_vision
+		iris_no_gps_irlock
 		omnicopter
 		plane
 		plane_cam
@@ -117,6 +118,7 @@ if(gazebo_FOUND)
 		warehouse
 		windy
 		yosemite
+		iris_no_gps_irlock
 	)
 
 	# find corresponding airframes
