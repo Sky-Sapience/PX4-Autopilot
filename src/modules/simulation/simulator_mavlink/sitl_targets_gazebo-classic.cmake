@@ -102,6 +102,7 @@ if(gazebo_FOUND)
 		techpod
 		tiltrotor
 		typhoon_h480
+		typhoon_h480_aruco
 		uuv_bluerov2_heavy
 		uuv_hippocampus
 	)
@@ -117,6 +118,7 @@ if(gazebo_FOUND)
 		warehouse
 		windy
 		yosemite
+		sks_aruco
 	)
 
 	# find corresponding airframes

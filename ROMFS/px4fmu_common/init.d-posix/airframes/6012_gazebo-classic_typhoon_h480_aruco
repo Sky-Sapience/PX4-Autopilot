@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# @name Aruco AprilTag Typhoon
+# @type Hexarotor
+# @class Hexarotor
+#
+# @maintainer YourName
+#
+
+. ${R}etc/init.d-posix/airframes/6011_gazebo-classic_typhoon_h480
