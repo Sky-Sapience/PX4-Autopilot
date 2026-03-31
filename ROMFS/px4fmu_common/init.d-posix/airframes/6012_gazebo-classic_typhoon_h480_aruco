@@ -11,61 +11,13 @@
 
 param set-default COM_DISARM_LAND 2.0
 param set-default COM_FAIL_ACT_T 5.0
+
 param set-default LNDMC_ALT_GND 2.0
 param set-default LNDMC_ROT_MAX 20.0
 param set-default LNDMC_TRIG_TIME 1.0
 param set-default LNDMC_XY_VEL_MAX 1.5
 param set-default LNDMC_Z_VEL_MAX 0.0833333358168602
-param set-default MC_ACRO_EXPO 0.0
-param set-default MC_ACRO_EXPO_Y 0.0
-param set-default MC_ACRO_P_MAX 100.0
-param set-default MC_ACRO_R_MAX 100.0
-param set-default MC_ACRO_SUPEXPO 0.0
-param set-default MC_ACRO_SUPEXPOY 0.0
-param set-default MC_ACRO_Y_MAX 100.0
-param set-default MC_AIRMODE 0
-param set-default MC_AT_APPLY 1
-param set-default MC_AT_EN 1
-param set-default MC_AT_RISE_TIME 0.14000000059604645
-param set-default MC_AT_START 0
-param set-default MC_AT_SYSID_AMP 0.699999988079071
-param set-default MC_BAT_SCALE_EN 0
-param set-default MC_MAN_TILT_TAU 0.0
-param set-default MC_ORBIT_RAD_MAX 1000.0
-param set-default MC_PITCHRATE_D 0.0020000000949949026
-param set-default MC_PITCHRATE_FF 0.0
-param set-default MC_PITCHRATE_I 0.18000000715255737
-param set-default MC_PITCHRATE_K 1.0
-param set-default MC_PITCHRATE_MAX 160.0
-param set-default MC_PITCHRATE_P 0.1420000046491623
-param set-default MC_PITCH_P 5.0
-param set-default MC_PR_INT_LIM 0.30000001192092896
-param set-default MC_ROLLRATE_D 0.0020000000949949026
-param set-default MC_ROLLRATE_FF 0.0
-param set-default MC_ROLLRATE_I 0.18000000715255737
-param set-default MC_ROLLRATE_K 1.0
-param set-default MC_ROLLRATE_MAX 160.0
-param set-default MC_ROLLRATE_P 0.14000000059604645
-param set-default MC_ROLL_P 5.0
-param set-default MC_RR_INT_LIM 0.30000001192092896
-param set-default MC_SLOW_DEF_HVEL 3.0
-param set-default MC_SLOW_DEF_VVEL 1.0
-param set-default MC_SLOW_DEF_YAWR 45.0
-param set-default MC_SLOW_MAP_HVEL 0
-param set-default MC_SLOW_MAP_VVEL 0
-param set-default MC_SLOW_MAP_YAWR 0
-param set-default MC_SLOW_MIN_HVEL 0.30000001192092896
-param set-default MC_SLOW_MIN_VVEL 0.30000001192092896
-param set-default MC_SLOW_MIN_YAWR 3.0
-param set-default MC_YAWRATE_D 0.00800000037997961
-param set-default MC_YAWRATE_FF 0.0
-param set-default MC_YAWRATE_I 0.20000000298023224
-param set-default MC_YAWRATE_K 1.0
-param set-default MC_YAWRATE_MAX 140.0
-param set-default MC_YAWRATE_P 0.2800000011920929
-param set-default MC_YAW_P 2.799999952316284
-param set-default MC_YAW_WEIGHT 0.4000000059604645
-param set-default MC_YR_INT_LIM 0.30000001192092896
+
 param set-default MIS_DIST_1WP 900.0
 param set-default MIS_LND_ABRT_ALT 30
 param set-default MIS_MNT_YAW_CTL 0
@@ -73,6 +25,7 @@ param set-default MIS_PD_TO 5.0
 param set-default MIS_TAKEOFF_ALT 2.5
 param set-default MIS_YAW_ERR 12.0
 param set-default MIS_YAW_TMT -1.0
+
 param set-default MPC_ACC_DECOUPLE 1
 param set-default MPC_ACC_DOWN_MAX 2.0
 param set-default MPC_ACC_HOR 2.0
@@ -134,6 +87,7 @@ param set-default MPC_Z_VEL_MAX_UP 1.0
 param set-default MPC_Z_VEL_P_ACC 3.200000047683716
 param set-default MPC_Z_V_AUTO_DN 1.0
 param set-default MPC_Z_V_AUTO_UP 1.0
+
 param set-default NAV_ACC_RAD 2.0
 param set-default NAV_DLL_ACT 0
 param set-default NAV_FORCE_VT 1
@@ -147,6 +101,7 @@ param set-default NAV_TRAFF_AVOID 1
 param set-default NAV_TRAFF_A_HOR 500.0
 param set-default NAV_TRAFF_A_VER 500.0
 param set-default NAV_TRAFF_COLL_T 60
+
 param set-default RTL_APPR_FORCE 0
 param set-default RTL_CONE_ANG 45
 param set-default RTL_DESCEND_ALT 10.0
